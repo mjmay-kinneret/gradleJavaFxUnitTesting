@@ -29,7 +29,6 @@ kotlin {
 }
 
 javafx {
-    sdk = "C:\\Users\\Michael\\Development\\javafx-sdk-19"
     modules("javafx.controls", "javafx.fxml")
 }
 
