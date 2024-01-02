@@ -15,4 +15,9 @@ public class SampleModelClassTest {
     public void add() {
         assertEquals(7, SampleModelClass.add(3,4));
     }
+
+    @Test
+    public void addFail() {
+        assertEquals(8, SampleModelClass.add(3,4));
+    }
 }
