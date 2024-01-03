@@ -34,4 +34,5 @@ javafx {
 
 application{
     mainClass.set("il.ac.kinneret.mjmay.GradlingFx")
+
 }
