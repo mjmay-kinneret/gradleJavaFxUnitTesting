@@ -21,7 +21,7 @@ dependencies {
 
 tasks.withType<Jar> {
     manifest {
-        attributes["Main-Class"] = "il.ac.kinneret.mjmay.HelloApplication"
+        attributes["Main-Class"] = "il.ac.kinneret.mjmay.GradlingFx"
     }
 }
 kotlin {
@@ -33,5 +33,5 @@ javafx {
 }
 
 application{
-
+    mainClass.set("il.ac.kinneret.mjmay.GradlingFx")
 }
